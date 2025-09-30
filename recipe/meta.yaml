@@ -1,5 +1,5 @@
 {% set name = "upstage-des" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/upstage_des-{{ version }}.tar.gz
-  sha256: e7c02e320d2a6042720f511cec8f1c06f72b835f0c022927833eaf37c172ec6a
+  sha256: 7467b69c3c6ee0089780c4584a57bbebd434db7141e414ac4ba9c299745e8c32
 
 build:
   noarch: python
